@@ -4,7 +4,13 @@ exports[`Render renders correctly 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Search />,
+  Symbol(enzyme.__unrendered__): <Search
+    navigation={
+      Object {
+        "navigate": [Function],
+      }
+    }
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -17,157 +23,452 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": <Styled(Header)
-        virtual={undefined}
-      >
-        <Styled(Left)
-          virtual={undefined}
-        />
-        <Styled(Body)
+      "children": Array [
+        <Styled(Header)
+          rounded={true}
+          searchBar={true}
           virtual={undefined}
         >
-          <Styled(Title)
+          <Styled(Item)
             virtual={undefined}
           >
-            Search
-          </Styled(Title)>
-        </Styled(Body)>
-        <Styled(Right)
+            <Styled(Icon)
+              name="ios-search"
+              virtual={undefined}
+            />
+            <Styled(Input)
+              placeholder="Search"
+              virtual={undefined}
+            />
+            <Styled(Icon)
+              name="ios-close-circle-outline"
+              virtual={undefined}
+            />
+          </Styled(Item)>
+        </Styled(Header)>,
+        <Styled(Content)
           virtual={undefined}
-        />
-      </Styled(Header)>,
+        >
+          <Styled(Segment)
+            virtual={undefined}
+          >
+            <Styled(Button)
+              virtual={undefined}
+            >
+              <Styled(Text)
+                virtual={undefined}
+              >
+                Recents
+              </Styled(Text)>
+            </Styled(Button)>
+            <Styled(Button)
+              virtual={undefined}
+            >
+              <Styled(Text)
+                virtual={undefined}
+              >
+                People
+              </Styled(Text)>
+            </Styled(Button)>
+            <Styled(Button)
+              virtual={undefined}
+            >
+              <Styled(Text)
+                virtual={undefined}
+              >
+                Keywords
+              </Styled(Text)>
+            </Styled(Button)>
+            <Styled(Button)
+              active={true}
+              virtual={undefined}
+            >
+              <Styled(Text)
+                virtual={undefined}
+              >
+                Places
+              </Styled(Text)>
+            </Styled(Button)>
+          </Styled(Segment)>
+          <Styled(List)
+            virtual={undefined}
+          >
+            <Styled(ListItem)
+              avatar={true}
+              button={true}
+              onPress={[Function]}
+              virtual={undefined}
+            >
+              <Styled(Left)
+                virtual={undefined}
+              >
+                <Styled(Icon)
+                  name="ios-pin-outline"
+                  virtual={undefined}
+                />
+              </Styled(Left)>
+              <Styled(Body)
+                virtual={undefined}
+              >
+                <Styled(Text)
+                  virtual={undefined}
+                >
+                  Result Title
+                </Styled(Text)>
+                <Styled(Text)
+                  note={true}
+                  virtual={undefined}
+                >
+                  result note
+                </Styled(Text)>
+              </Styled(Body)>
+              <Styled(Right)
+                virtual={undefined}
+              >
+                <Styled(Icon)
+                  name="ios-arrow-forward"
+                  virtual={undefined}
+                />
+              </Styled(Right)>
+            </Styled(ListItem)>
+            <Styled(ListItem)
+              avatar={true}
+              button={true}
+              onPress={[Function]}
+              virtual={undefined}
+            >
+              <Styled(Left)
+                virtual={undefined}
+              >
+                <Styled(Icon)
+                  name="ios-pin-outline"
+                  virtual={undefined}
+                />
+              </Styled(Left)>
+              <Styled(Body)
+                virtual={undefined}
+              >
+                <Styled(Text)
+                  virtual={undefined}
+                >
+                  Result Title
+                </Styled(Text)>
+                <Styled(Text)
+                  note={true}
+                  virtual={undefined}
+                >
+                  result note
+                </Styled(Text)>
+              </Styled(Body)>
+              <Styled(Right)
+                virtual={undefined}
+              >
+                <Styled(Icon)
+                  name="ios-arrow-forward"
+                  virtual={undefined}
+                />
+              </Styled(Right)>
+            </Styled(ListItem)>
+            <Styled(ListItem)
+              avatar={true}
+              button={true}
+              onPress={[Function]}
+              virtual={undefined}
+            >
+              <Styled(Left)
+                virtual={undefined}
+              >
+                <Styled(Icon)
+                  name="ios-pin-outline"
+                  virtual={undefined}
+                />
+              </Styled(Left)>
+              <Styled(Body)
+                virtual={undefined}
+              >
+                <Styled(Text)
+                  virtual={undefined}
+                >
+                  Result Title
+                </Styled(Text)>
+                <Styled(Text)
+                  note={true}
+                  virtual={undefined}
+                >
+                  result note
+                </Styled(Text)>
+              </Styled(Body)>
+              <Styled(Right)
+                virtual={undefined}
+              >
+                <Styled(Icon)
+                  name="ios-arrow-forward"
+                  virtual={undefined}
+                />
+              </Styled(Right)>
+            </Styled(ListItem)>
+          </Styled(List)>
+        </Styled(Content)>,
+      ],
       "virtual": undefined,
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <Styled(Left)
-            virtual={undefined}
-          />,
-          <Styled(Body)
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Styled(Item)
             virtual={undefined}
           >
-            <Styled(Title)
+            <Styled(Icon)
+              name="ios-search"
               virtual={undefined}
-            >
-              Search
-            </Styled(Title)>
-          </Styled(Body)>,
-          <Styled(Right)
-            virtual={undefined}
-          />,
-        ],
-        "virtual": undefined,
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "virtual": undefined,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
+            />
+            <Styled(Input)
+              placeholder="Search"
+              virtual={undefined}
+            />
+            <Styled(Icon)
+              name="ios-close-circle-outline"
+              virtual={undefined}
+            />
+          </Styled(Item)>,
+          "rounded": true,
+          "searchBar": true,
+          "virtual": undefined,
         },
-        Object {
+        "ref": null,
+        "rendered": Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": <Styled(Title)
-              virtual={undefined}
-            >
-              Search
-            </Styled(Title)>,
+            "children": Array [
+              <Styled(Icon)
+                name="ios-search"
+                virtual={undefined}
+              />,
+              <Styled(Input)
+                placeholder="Search"
+                virtual={undefined}
+              />,
+              <Styled(Icon)
+                name="ios-close-circle-outline"
+                virtual={undefined}
+              />,
+            ],
             "virtual": undefined,
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "Search",
-              "virtual": undefined,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "name": "ios-search",
+                "virtual": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
             },
-            "ref": null,
-            "rendered": "Search",
-            "type": [Function],
-          },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "placeholder": "Search",
+                "virtual": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "name": "ios-close-circle-outline",
+                "virtual": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": [Function],
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "virtual": undefined,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": <Styled(Header)
-          virtual={undefined}
-        >
-          <Styled(Left)
-            virtual={undefined}
-          />
-          <Styled(Body)
-            virtual={undefined}
-          >
-            <Styled(Title)
-              virtual={undefined}
-            >
-              Search
-            </Styled(Title)>
-          </Styled(Body)>
-          <Styled(Right)
-            virtual={undefined}
-          />
-        </Styled(Header)>,
-        "virtual": undefined,
+        "type": [Function],
       },
-      "ref": null,
-      "rendered": Object {
+      Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <Styled(Left)
-              virtual={undefined}
-            />,
-            <Styled(Body)
+            <Styled(Segment)
               virtual={undefined}
             >
-              <Styled(Title)
+              <Styled(Button)
                 virtual={undefined}
               >
-                Search
-              </Styled(Title)>
-            </Styled(Body)>,
-            <Styled(Right)
+                <Styled(Text)
+                  virtual={undefined}
+                >
+                  Recents
+                </Styled(Text)>
+              </Styled(Button)>
+              <Styled(Button)
+                virtual={undefined}
+              >
+                <Styled(Text)
+                  virtual={undefined}
+                >
+                  People
+                </Styled(Text)>
+              </Styled(Button)>
+              <Styled(Button)
+                virtual={undefined}
+              >
+                <Styled(Text)
+                  virtual={undefined}
+                >
+                  Keywords
+                </Styled(Text)>
+              </Styled(Button)>
+              <Styled(Button)
+                active={true}
+                virtual={undefined}
+              >
+                <Styled(Text)
+                  virtual={undefined}
+                >
+                  Places
+                </Styled(Text)>
+              </Styled(Button)>
+            </Styled(Segment)>,
+            <Styled(List)
               virtual={undefined}
-            />,
+            >
+              <Styled(ListItem)
+                avatar={true}
+                button={true}
+                onPress={[Function]}
+                virtual={undefined}
+              >
+                <Styled(Left)
+                  virtual={undefined}
+                >
+                  <Styled(Icon)
+                    name="ios-pin-outline"
+                    virtual={undefined}
+                  />
+                </Styled(Left)>
+                <Styled(Body)
+                  virtual={undefined}
+                >
+                  <Styled(Text)
+                    virtual={undefined}
+                  >
+                    Result Title
+                  </Styled(Text)>
+                  <Styled(Text)
+                    note={true}
+                    virtual={undefined}
+                  >
+                    result note
+                  </Styled(Text)>
+                </Styled(Body)>
+                <Styled(Right)
+                  virtual={undefined}
+                >
+                  <Styled(Icon)
+                    name="ios-arrow-forward"
+                    virtual={undefined}
+                  />
+                </Styled(Right)>
+              </Styled(ListItem)>
+              <Styled(ListItem)
+                avatar={true}
+                button={true}
+                onPress={[Function]}
+                virtual={undefined}
+              >
+                <Styled(Left)
+                  virtual={undefined}
+                >
+                  <Styled(Icon)
+                    name="ios-pin-outline"
+                    virtual={undefined}
+                  />
+                </Styled(Left)>
+                <Styled(Body)
+                  virtual={undefined}
+                >
+                  <Styled(Text)
+                    virtual={undefined}
+                  >
+                    Result Title
+                  </Styled(Text)>
+                  <Styled(Text)
+                    note={true}
+                    virtual={undefined}
+                  >
+                    result note
+                  </Styled(Text)>
+                </Styled(Body)>
+                <Styled(Right)
+                  virtual={undefined}
+                >
+                  <Styled(Icon)
+                    name="ios-arrow-forward"
+                    virtual={undefined}
+                  />
+                </Styled(Right)>
+              </Styled(ListItem)>
+              <Styled(ListItem)
+                avatar={true}
+                button={true}
+                onPress={[Function]}
+                virtual={undefined}
+              >
+                <Styled(Left)
+                  virtual={undefined}
+                >
+                  <Styled(Icon)
+                    name="ios-pin-outline"
+                    virtual={undefined}
+                  />
+                </Styled(Left)>
+                <Styled(Body)
+                  virtual={undefined}
+                >
+                  <Styled(Text)
+                    virtual={undefined}
+                  >
+                    Result Title
+                  </Styled(Text)>
+                  <Styled(Text)
+                    note={true}
+                    virtual={undefined}
+                  >
+                    result note
+                  </Styled(Text)>
+                </Styled(Body)>
+                <Styled(Right)
+                  virtual={undefined}
+                >
+                  <Styled(Icon)
+                    name="ios-arrow-forward"
+                    virtual={undefined}
+                  />
+                </Styled(Right)>
+              </Styled(ListItem)>
+            </Styled(List)>,
           ],
           "virtual": undefined,
         },
@@ -178,37 +479,159 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
+              "children": Array [
+                <Styled(Button)
+                  virtual={undefined}
+                >
+                  <Styled(Text)
+                    virtual={undefined}
+                  >
+                    Recents
+                  </Styled(Text)>
+                </Styled(Button)>,
+                <Styled(Button)
+                  virtual={undefined}
+                >
+                  <Styled(Text)
+                    virtual={undefined}
+                  >
+                    People
+                  </Styled(Text)>
+                </Styled(Button)>,
+                <Styled(Button)
+                  virtual={undefined}
+                >
+                  <Styled(Text)
+                    virtual={undefined}
+                  >
+                    Keywords
+                  </Styled(Text)>
+                </Styled(Button)>,
+                <Styled(Button)
+                  active={true}
+                  virtual={undefined}
+                >
+                  <Styled(Text)
+                    virtual={undefined}
+                  >
+                    Places
+                  </Styled(Text)>
+                </Styled(Button)>,
+              ],
               "virtual": undefined,
             },
             "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": <Styled(Title)
-                virtual={undefined}
-              >
-                Search
-              </Styled(Title)>,
-              "virtual": undefined,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "Search",
-                "virtual": undefined,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Styled(Text)
+                    virtual={undefined}
+                  >
+                    Recents
+                  </Styled(Text)>,
+                  "virtual": undefined,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Recents",
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "Recents",
+                  "type": [Function],
+                },
+                "type": [Function],
               },
-              "ref": null,
-              "rendered": "Search",
-              "type": [Function],
-            },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Styled(Text)
+                    virtual={undefined}
+                  >
+                    People
+                  </Styled(Text)>,
+                  "virtual": undefined,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "People",
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "People",
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Styled(Text)
+                    virtual={undefined}
+                  >
+                    Keywords
+                  </Styled(Text)>,
+                  "virtual": undefined,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Keywords",
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "Keywords",
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "active": true,
+                  "children": <Styled(Text)
+                    virtual={undefined}
+                  >
+                    Places
+                  </Styled(Text)>,
+                  "virtual": undefined,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Places",
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "Places",
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
             "type": [Function],
           },
           Object {
@@ -216,15 +639,1784 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
+              "children": Array [
+                <Styled(ListItem)
+                  avatar={true}
+                  button={true}
+                  onPress={[Function]}
+                  virtual={undefined}
+                >
+                  <Styled(Left)
+                    virtual={undefined}
+                  >
+                    <Styled(Icon)
+                      name="ios-pin-outline"
+                      virtual={undefined}
+                    />
+                  </Styled(Left)>
+                  <Styled(Body)
+                    virtual={undefined}
+                  >
+                    <Styled(Text)
+                      virtual={undefined}
+                    >
+                      Result Title
+                    </Styled(Text)>
+                    <Styled(Text)
+                      note={true}
+                      virtual={undefined}
+                    >
+                      result note
+                    </Styled(Text)>
+                  </Styled(Body)>
+                  <Styled(Right)
+                    virtual={undefined}
+                  >
+                    <Styled(Icon)
+                      name="ios-arrow-forward"
+                      virtual={undefined}
+                    />
+                  </Styled(Right)>
+                </Styled(ListItem)>,
+                <Styled(ListItem)
+                  avatar={true}
+                  button={true}
+                  onPress={[Function]}
+                  virtual={undefined}
+                >
+                  <Styled(Left)
+                    virtual={undefined}
+                  >
+                    <Styled(Icon)
+                      name="ios-pin-outline"
+                      virtual={undefined}
+                    />
+                  </Styled(Left)>
+                  <Styled(Body)
+                    virtual={undefined}
+                  >
+                    <Styled(Text)
+                      virtual={undefined}
+                    >
+                      Result Title
+                    </Styled(Text)>
+                    <Styled(Text)
+                      note={true}
+                      virtual={undefined}
+                    >
+                      result note
+                    </Styled(Text)>
+                  </Styled(Body)>
+                  <Styled(Right)
+                    virtual={undefined}
+                  >
+                    <Styled(Icon)
+                      name="ios-arrow-forward"
+                      virtual={undefined}
+                    />
+                  </Styled(Right)>
+                </Styled(ListItem)>,
+                <Styled(ListItem)
+                  avatar={true}
+                  button={true}
+                  onPress={[Function]}
+                  virtual={undefined}
+                >
+                  <Styled(Left)
+                    virtual={undefined}
+                  >
+                    <Styled(Icon)
+                      name="ios-pin-outline"
+                      virtual={undefined}
+                    />
+                  </Styled(Left)>
+                  <Styled(Body)
+                    virtual={undefined}
+                  >
+                    <Styled(Text)
+                      virtual={undefined}
+                    >
+                      Result Title
+                    </Styled(Text)>
+                    <Styled(Text)
+                      note={true}
+                      virtual={undefined}
+                    >
+                      result note
+                    </Styled(Text)>
+                  </Styled(Body)>
+                  <Styled(Right)
+                    virtual={undefined}
+                  >
+                    <Styled(Icon)
+                      name="ios-arrow-forward"
+                      virtual={undefined}
+                    />
+                  </Styled(Right)>
+                </Styled(ListItem)>,
+              ],
               "virtual": undefined,
             },
             "ref": null,
-            "rendered": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "avatar": true,
+                  "button": true,
+                  "children": Array [
+                    <Styled(Left)
+                      virtual={undefined}
+                    >
+                      <Styled(Icon)
+                        name="ios-pin-outline"
+                        virtual={undefined}
+                      />
+                    </Styled(Left)>,
+                    <Styled(Body)
+                      virtual={undefined}
+                    >
+                      <Styled(Text)
+                        virtual={undefined}
+                      >
+                        Result Title
+                      </Styled(Text)>
+                      <Styled(Text)
+                        note={true}
+                        virtual={undefined}
+                      >
+                        result note
+                      </Styled(Text)>
+                    </Styled(Body)>,
+                    <Styled(Right)
+                      virtual={undefined}
+                    >
+                      <Styled(Icon)
+                        name="ios-arrow-forward"
+                        virtual={undefined}
+                      />
+                    </Styled(Right)>,
+                  ],
+                  "onPress": [Function],
+                  "virtual": undefined,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Styled(Icon)
+                        name="ios-pin-outline"
+                        virtual={undefined}
+                      />,
+                      "virtual": undefined,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "name": "ios-pin-outline",
+                        "virtual": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <Styled(Text)
+                          virtual={undefined}
+                        >
+                          Result Title
+                        </Styled(Text)>,
+                        <Styled(Text)
+                          note={true}
+                          virtual={undefined}
+                        >
+                          result note
+                        </Styled(Text)>,
+                      ],
+                      "virtual": undefined,
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "Result Title",
+                          "virtual": undefined,
+                        },
+                        "ref": null,
+                        "rendered": "Result Title",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "result note",
+                          "note": true,
+                          "virtual": undefined,
+                        },
+                        "ref": null,
+                        "rendered": "result note",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Styled(Icon)
+                        name="ios-arrow-forward"
+                        virtual={undefined}
+                      />,
+                      "virtual": undefined,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "name": "ios-arrow-forward",
+                        "virtual": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "avatar": true,
+                  "button": true,
+                  "children": Array [
+                    <Styled(Left)
+                      virtual={undefined}
+                    >
+                      <Styled(Icon)
+                        name="ios-pin-outline"
+                        virtual={undefined}
+                      />
+                    </Styled(Left)>,
+                    <Styled(Body)
+                      virtual={undefined}
+                    >
+                      <Styled(Text)
+                        virtual={undefined}
+                      >
+                        Result Title
+                      </Styled(Text)>
+                      <Styled(Text)
+                        note={true}
+                        virtual={undefined}
+                      >
+                        result note
+                      </Styled(Text)>
+                    </Styled(Body)>,
+                    <Styled(Right)
+                      virtual={undefined}
+                    >
+                      <Styled(Icon)
+                        name="ios-arrow-forward"
+                        virtual={undefined}
+                      />
+                    </Styled(Right)>,
+                  ],
+                  "onPress": [Function],
+                  "virtual": undefined,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Styled(Icon)
+                        name="ios-pin-outline"
+                        virtual={undefined}
+                      />,
+                      "virtual": undefined,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "name": "ios-pin-outline",
+                        "virtual": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <Styled(Text)
+                          virtual={undefined}
+                        >
+                          Result Title
+                        </Styled(Text)>,
+                        <Styled(Text)
+                          note={true}
+                          virtual={undefined}
+                        >
+                          result note
+                        </Styled(Text)>,
+                      ],
+                      "virtual": undefined,
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "Result Title",
+                          "virtual": undefined,
+                        },
+                        "ref": null,
+                        "rendered": "Result Title",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "result note",
+                          "note": true,
+                          "virtual": undefined,
+                        },
+                        "ref": null,
+                        "rendered": "result note",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Styled(Icon)
+                        name="ios-arrow-forward"
+                        virtual={undefined}
+                      />,
+                      "virtual": undefined,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "name": "ios-arrow-forward",
+                        "virtual": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "avatar": true,
+                  "button": true,
+                  "children": Array [
+                    <Styled(Left)
+                      virtual={undefined}
+                    >
+                      <Styled(Icon)
+                        name="ios-pin-outline"
+                        virtual={undefined}
+                      />
+                    </Styled(Left)>,
+                    <Styled(Body)
+                      virtual={undefined}
+                    >
+                      <Styled(Text)
+                        virtual={undefined}
+                      >
+                        Result Title
+                      </Styled(Text)>
+                      <Styled(Text)
+                        note={true}
+                        virtual={undefined}
+                      >
+                        result note
+                      </Styled(Text)>
+                    </Styled(Body)>,
+                    <Styled(Right)
+                      virtual={undefined}
+                    >
+                      <Styled(Icon)
+                        name="ios-arrow-forward"
+                        virtual={undefined}
+                      />
+                    </Styled(Right)>,
+                  ],
+                  "onPress": [Function],
+                  "virtual": undefined,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Styled(Icon)
+                        name="ios-pin-outline"
+                        virtual={undefined}
+                      />,
+                      "virtual": undefined,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "name": "ios-pin-outline",
+                        "virtual": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <Styled(Text)
+                          virtual={undefined}
+                        >
+                          Result Title
+                        </Styled(Text)>,
+                        <Styled(Text)
+                          note={true}
+                          virtual={undefined}
+                        >
+                          result note
+                        </Styled(Text)>,
+                      ],
+                      "virtual": undefined,
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "Result Title",
+                          "virtual": undefined,
+                        },
+                        "ref": null,
+                        "rendered": "Result Title",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "result note",
+                          "note": true,
+                          "virtual": undefined,
+                        },
+                        "ref": null,
+                        "rendered": "result note",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Styled(Icon)
+                        name="ios-arrow-forward"
+                        virtual={undefined}
+                      />,
+                      "virtual": undefined,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "name": "ios-arrow-forward",
+                        "virtual": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
             "type": [Function],
           },
         ],
         "type": [Function],
       },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Styled(Header)
+            rounded={true}
+            searchBar={true}
+            virtual={undefined}
+          >
+            <Styled(Item)
+              virtual={undefined}
+            >
+              <Styled(Icon)
+                name="ios-search"
+                virtual={undefined}
+              />
+              <Styled(Input)
+                placeholder="Search"
+                virtual={undefined}
+              />
+              <Styled(Icon)
+                name="ios-close-circle-outline"
+                virtual={undefined}
+              />
+            </Styled(Item)>
+          </Styled(Header)>,
+          <Styled(Content)
+            virtual={undefined}
+          >
+            <Styled(Segment)
+              virtual={undefined}
+            >
+              <Styled(Button)
+                virtual={undefined}
+              >
+                <Styled(Text)
+                  virtual={undefined}
+                >
+                  Recents
+                </Styled(Text)>
+              </Styled(Button)>
+              <Styled(Button)
+                virtual={undefined}
+              >
+                <Styled(Text)
+                  virtual={undefined}
+                >
+                  People
+                </Styled(Text)>
+              </Styled(Button)>
+              <Styled(Button)
+                virtual={undefined}
+              >
+                <Styled(Text)
+                  virtual={undefined}
+                >
+                  Keywords
+                </Styled(Text)>
+              </Styled(Button)>
+              <Styled(Button)
+                active={true}
+                virtual={undefined}
+              >
+                <Styled(Text)
+                  virtual={undefined}
+                >
+                  Places
+                </Styled(Text)>
+              </Styled(Button)>
+            </Styled(Segment)>
+            <Styled(List)
+              virtual={undefined}
+            >
+              <Styled(ListItem)
+                avatar={true}
+                button={true}
+                onPress={[Function]}
+                virtual={undefined}
+              >
+                <Styled(Left)
+                  virtual={undefined}
+                >
+                  <Styled(Icon)
+                    name="ios-pin-outline"
+                    virtual={undefined}
+                  />
+                </Styled(Left)>
+                <Styled(Body)
+                  virtual={undefined}
+                >
+                  <Styled(Text)
+                    virtual={undefined}
+                  >
+                    Result Title
+                  </Styled(Text)>
+                  <Styled(Text)
+                    note={true}
+                    virtual={undefined}
+                  >
+                    result note
+                  </Styled(Text)>
+                </Styled(Body)>
+                <Styled(Right)
+                  virtual={undefined}
+                >
+                  <Styled(Icon)
+                    name="ios-arrow-forward"
+                    virtual={undefined}
+                  />
+                </Styled(Right)>
+              </Styled(ListItem)>
+              <Styled(ListItem)
+                avatar={true}
+                button={true}
+                onPress={[Function]}
+                virtual={undefined}
+              >
+                <Styled(Left)
+                  virtual={undefined}
+                >
+                  <Styled(Icon)
+                    name="ios-pin-outline"
+                    virtual={undefined}
+                  />
+                </Styled(Left)>
+                <Styled(Body)
+                  virtual={undefined}
+                >
+                  <Styled(Text)
+                    virtual={undefined}
+                  >
+                    Result Title
+                  </Styled(Text)>
+                  <Styled(Text)
+                    note={true}
+                    virtual={undefined}
+                  >
+                    result note
+                  </Styled(Text)>
+                </Styled(Body)>
+                <Styled(Right)
+                  virtual={undefined}
+                >
+                  <Styled(Icon)
+                    name="ios-arrow-forward"
+                    virtual={undefined}
+                  />
+                </Styled(Right)>
+              </Styled(ListItem)>
+              <Styled(ListItem)
+                avatar={true}
+                button={true}
+                onPress={[Function]}
+                virtual={undefined}
+              >
+                <Styled(Left)
+                  virtual={undefined}
+                >
+                  <Styled(Icon)
+                    name="ios-pin-outline"
+                    virtual={undefined}
+                  />
+                </Styled(Left)>
+                <Styled(Body)
+                  virtual={undefined}
+                >
+                  <Styled(Text)
+                    virtual={undefined}
+                  >
+                    Result Title
+                  </Styled(Text)>
+                  <Styled(Text)
+                    note={true}
+                    virtual={undefined}
+                  >
+                    result note
+                  </Styled(Text)>
+                </Styled(Body)>
+                <Styled(Right)
+                  virtual={undefined}
+                >
+                  <Styled(Icon)
+                    name="ios-arrow-forward"
+                    virtual={undefined}
+                  />
+                </Styled(Right)>
+              </Styled(ListItem)>
+            </Styled(List)>
+          </Styled(Content)>,
+        ],
+        "virtual": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Styled(Item)
+              virtual={undefined}
+            >
+              <Styled(Icon)
+                name="ios-search"
+                virtual={undefined}
+              />
+              <Styled(Input)
+                placeholder="Search"
+                virtual={undefined}
+              />
+              <Styled(Icon)
+                name="ios-close-circle-outline"
+                virtual={undefined}
+              />
+            </Styled(Item)>,
+            "rounded": true,
+            "searchBar": true,
+            "virtual": undefined,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Styled(Icon)
+                  name="ios-search"
+                  virtual={undefined}
+                />,
+                <Styled(Input)
+                  placeholder="Search"
+                  virtual={undefined}
+                />,
+                <Styled(Icon)
+                  name="ios-close-circle-outline"
+                  virtual={undefined}
+                />,
+              ],
+              "virtual": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "name": "ios-search",
+                  "virtual": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "placeholder": "Search",
+                  "virtual": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "name": "ios-close-circle-outline",
+                  "virtual": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(Segment)
+                virtual={undefined}
+              >
+                <Styled(Button)
+                  virtual={undefined}
+                >
+                  <Styled(Text)
+                    virtual={undefined}
+                  >
+                    Recents
+                  </Styled(Text)>
+                </Styled(Button)>
+                <Styled(Button)
+                  virtual={undefined}
+                >
+                  <Styled(Text)
+                    virtual={undefined}
+                  >
+                    People
+                  </Styled(Text)>
+                </Styled(Button)>
+                <Styled(Button)
+                  virtual={undefined}
+                >
+                  <Styled(Text)
+                    virtual={undefined}
+                  >
+                    Keywords
+                  </Styled(Text)>
+                </Styled(Button)>
+                <Styled(Button)
+                  active={true}
+                  virtual={undefined}
+                >
+                  <Styled(Text)
+                    virtual={undefined}
+                  >
+                    Places
+                  </Styled(Text)>
+                </Styled(Button)>
+              </Styled(Segment)>,
+              <Styled(List)
+                virtual={undefined}
+              >
+                <Styled(ListItem)
+                  avatar={true}
+                  button={true}
+                  onPress={[Function]}
+                  virtual={undefined}
+                >
+                  <Styled(Left)
+                    virtual={undefined}
+                  >
+                    <Styled(Icon)
+                      name="ios-pin-outline"
+                      virtual={undefined}
+                    />
+                  </Styled(Left)>
+                  <Styled(Body)
+                    virtual={undefined}
+                  >
+                    <Styled(Text)
+                      virtual={undefined}
+                    >
+                      Result Title
+                    </Styled(Text)>
+                    <Styled(Text)
+                      note={true}
+                      virtual={undefined}
+                    >
+                      result note
+                    </Styled(Text)>
+                  </Styled(Body)>
+                  <Styled(Right)
+                    virtual={undefined}
+                  >
+                    <Styled(Icon)
+                      name="ios-arrow-forward"
+                      virtual={undefined}
+                    />
+                  </Styled(Right)>
+                </Styled(ListItem)>
+                <Styled(ListItem)
+                  avatar={true}
+                  button={true}
+                  onPress={[Function]}
+                  virtual={undefined}
+                >
+                  <Styled(Left)
+                    virtual={undefined}
+                  >
+                    <Styled(Icon)
+                      name="ios-pin-outline"
+                      virtual={undefined}
+                    />
+                  </Styled(Left)>
+                  <Styled(Body)
+                    virtual={undefined}
+                  >
+                    <Styled(Text)
+                      virtual={undefined}
+                    >
+                      Result Title
+                    </Styled(Text)>
+                    <Styled(Text)
+                      note={true}
+                      virtual={undefined}
+                    >
+                      result note
+                    </Styled(Text)>
+                  </Styled(Body)>
+                  <Styled(Right)
+                    virtual={undefined}
+                  >
+                    <Styled(Icon)
+                      name="ios-arrow-forward"
+                      virtual={undefined}
+                    />
+                  </Styled(Right)>
+                </Styled(ListItem)>
+                <Styled(ListItem)
+                  avatar={true}
+                  button={true}
+                  onPress={[Function]}
+                  virtual={undefined}
+                >
+                  <Styled(Left)
+                    virtual={undefined}
+                  >
+                    <Styled(Icon)
+                      name="ios-pin-outline"
+                      virtual={undefined}
+                    />
+                  </Styled(Left)>
+                  <Styled(Body)
+                    virtual={undefined}
+                  >
+                    <Styled(Text)
+                      virtual={undefined}
+                    >
+                      Result Title
+                    </Styled(Text)>
+                    <Styled(Text)
+                      note={true}
+                      virtual={undefined}
+                    >
+                      result note
+                    </Styled(Text)>
+                  </Styled(Body)>
+                  <Styled(Right)
+                    virtual={undefined}
+                  >
+                    <Styled(Icon)
+                      name="ios-arrow-forward"
+                      virtual={undefined}
+                    />
+                  </Styled(Right)>
+                </Styled(ListItem)>
+              </Styled(List)>,
+            ],
+            "virtual": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Styled(Button)
+                    virtual={undefined}
+                  >
+                    <Styled(Text)
+                      virtual={undefined}
+                    >
+                      Recents
+                    </Styled(Text)>
+                  </Styled(Button)>,
+                  <Styled(Button)
+                    virtual={undefined}
+                  >
+                    <Styled(Text)
+                      virtual={undefined}
+                    >
+                      People
+                    </Styled(Text)>
+                  </Styled(Button)>,
+                  <Styled(Button)
+                    virtual={undefined}
+                  >
+                    <Styled(Text)
+                      virtual={undefined}
+                    >
+                      Keywords
+                    </Styled(Text)>
+                  </Styled(Button)>,
+                  <Styled(Button)
+                    active={true}
+                    virtual={undefined}
+                  >
+                    <Styled(Text)
+                      virtual={undefined}
+                    >
+                      Places
+                    </Styled(Text)>
+                  </Styled(Button)>,
+                ],
+                "virtual": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Styled(Text)
+                      virtual={undefined}
+                    >
+                      Recents
+                    </Styled(Text)>,
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Recents",
+                      "virtual": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "Recents",
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Styled(Text)
+                      virtual={undefined}
+                    >
+                      People
+                    </Styled(Text)>,
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "People",
+                      "virtual": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "People",
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Styled(Text)
+                      virtual={undefined}
+                    >
+                      Keywords
+                    </Styled(Text)>,
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Keywords",
+                      "virtual": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "Keywords",
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "active": true,
+                    "children": <Styled(Text)
+                      virtual={undefined}
+                    >
+                      Places
+                    </Styled(Text)>,
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Places",
+                      "virtual": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "Places",
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Styled(ListItem)
+                    avatar={true}
+                    button={true}
+                    onPress={[Function]}
+                    virtual={undefined}
+                  >
+                    <Styled(Left)
+                      virtual={undefined}
+                    >
+                      <Styled(Icon)
+                        name="ios-pin-outline"
+                        virtual={undefined}
+                      />
+                    </Styled(Left)>
+                    <Styled(Body)
+                      virtual={undefined}
+                    >
+                      <Styled(Text)
+                        virtual={undefined}
+                      >
+                        Result Title
+                      </Styled(Text)>
+                      <Styled(Text)
+                        note={true}
+                        virtual={undefined}
+                      >
+                        result note
+                      </Styled(Text)>
+                    </Styled(Body)>
+                    <Styled(Right)
+                      virtual={undefined}
+                    >
+                      <Styled(Icon)
+                        name="ios-arrow-forward"
+                        virtual={undefined}
+                      />
+                    </Styled(Right)>
+                  </Styled(ListItem)>,
+                  <Styled(ListItem)
+                    avatar={true}
+                    button={true}
+                    onPress={[Function]}
+                    virtual={undefined}
+                  >
+                    <Styled(Left)
+                      virtual={undefined}
+                    >
+                      <Styled(Icon)
+                        name="ios-pin-outline"
+                        virtual={undefined}
+                      />
+                    </Styled(Left)>
+                    <Styled(Body)
+                      virtual={undefined}
+                    >
+                      <Styled(Text)
+                        virtual={undefined}
+                      >
+                        Result Title
+                      </Styled(Text)>
+                      <Styled(Text)
+                        note={true}
+                        virtual={undefined}
+                      >
+                        result note
+                      </Styled(Text)>
+                    </Styled(Body)>
+                    <Styled(Right)
+                      virtual={undefined}
+                    >
+                      <Styled(Icon)
+                        name="ios-arrow-forward"
+                        virtual={undefined}
+                      />
+                    </Styled(Right)>
+                  </Styled(ListItem)>,
+                  <Styled(ListItem)
+                    avatar={true}
+                    button={true}
+                    onPress={[Function]}
+                    virtual={undefined}
+                  >
+                    <Styled(Left)
+                      virtual={undefined}
+                    >
+                      <Styled(Icon)
+                        name="ios-pin-outline"
+                        virtual={undefined}
+                      />
+                    </Styled(Left)>
+                    <Styled(Body)
+                      virtual={undefined}
+                    >
+                      <Styled(Text)
+                        virtual={undefined}
+                      >
+                        Result Title
+                      </Styled(Text)>
+                      <Styled(Text)
+                        note={true}
+                        virtual={undefined}
+                      >
+                        result note
+                      </Styled(Text)>
+                    </Styled(Body)>
+                    <Styled(Right)
+                      virtual={undefined}
+                    >
+                      <Styled(Icon)
+                        name="ios-arrow-forward"
+                        virtual={undefined}
+                      />
+                    </Styled(Right)>
+                  </Styled(ListItem)>,
+                ],
+                "virtual": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "avatar": true,
+                    "button": true,
+                    "children": Array [
+                      <Styled(Left)
+                        virtual={undefined}
+                      >
+                        <Styled(Icon)
+                          name="ios-pin-outline"
+                          virtual={undefined}
+                        />
+                      </Styled(Left)>,
+                      <Styled(Body)
+                        virtual={undefined}
+                      >
+                        <Styled(Text)
+                          virtual={undefined}
+                        >
+                          Result Title
+                        </Styled(Text)>
+                        <Styled(Text)
+                          note={true}
+                          virtual={undefined}
+                        >
+                          result note
+                        </Styled(Text)>
+                      </Styled(Body)>,
+                      <Styled(Right)
+                        virtual={undefined}
+                      >
+                        <Styled(Icon)
+                          name="ios-arrow-forward"
+                          virtual={undefined}
+                        />
+                      </Styled(Right)>,
+                    ],
+                    "onPress": [Function],
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <Styled(Icon)
+                          name="ios-pin-outline"
+                          virtual={undefined}
+                        />,
+                        "virtual": undefined,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "name": "ios-pin-outline",
+                          "virtual": undefined,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": Array [
+                          <Styled(Text)
+                            virtual={undefined}
+                          >
+                            Result Title
+                          </Styled(Text)>,
+                          <Styled(Text)
+                            note={true}
+                            virtual={undefined}
+                          >
+                            result note
+                          </Styled(Text)>,
+                        ],
+                        "virtual": undefined,
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": "Result Title",
+                            "virtual": undefined,
+                          },
+                          "ref": null,
+                          "rendered": "Result Title",
+                          "type": [Function],
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": "result note",
+                            "note": true,
+                            "virtual": undefined,
+                          },
+                          "ref": null,
+                          "rendered": "result note",
+                          "type": [Function],
+                        },
+                      ],
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <Styled(Icon)
+                          name="ios-arrow-forward"
+                          virtual={undefined}
+                        />,
+                        "virtual": undefined,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "name": "ios-arrow-forward",
+                          "virtual": undefined,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "avatar": true,
+                    "button": true,
+                    "children": Array [
+                      <Styled(Left)
+                        virtual={undefined}
+                      >
+                        <Styled(Icon)
+                          name="ios-pin-outline"
+                          virtual={undefined}
+                        />
+                      </Styled(Left)>,
+                      <Styled(Body)
+                        virtual={undefined}
+                      >
+                        <Styled(Text)
+                          virtual={undefined}
+                        >
+                          Result Title
+                        </Styled(Text)>
+                        <Styled(Text)
+                          note={true}
+                          virtual={undefined}
+                        >
+                          result note
+                        </Styled(Text)>
+                      </Styled(Body)>,
+                      <Styled(Right)
+                        virtual={undefined}
+                      >
+                        <Styled(Icon)
+                          name="ios-arrow-forward"
+                          virtual={undefined}
+                        />
+                      </Styled(Right)>,
+                    ],
+                    "onPress": [Function],
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <Styled(Icon)
+                          name="ios-pin-outline"
+                          virtual={undefined}
+                        />,
+                        "virtual": undefined,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "name": "ios-pin-outline",
+                          "virtual": undefined,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": Array [
+                          <Styled(Text)
+                            virtual={undefined}
+                          >
+                            Result Title
+                          </Styled(Text)>,
+                          <Styled(Text)
+                            note={true}
+                            virtual={undefined}
+                          >
+                            result note
+                          </Styled(Text)>,
+                        ],
+                        "virtual": undefined,
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": "Result Title",
+                            "virtual": undefined,
+                          },
+                          "ref": null,
+                          "rendered": "Result Title",
+                          "type": [Function],
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": "result note",
+                            "note": true,
+                            "virtual": undefined,
+                          },
+                          "ref": null,
+                          "rendered": "result note",
+                          "type": [Function],
+                        },
+                      ],
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <Styled(Icon)
+                          name="ios-arrow-forward"
+                          virtual={undefined}
+                        />,
+                        "virtual": undefined,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "name": "ios-arrow-forward",
+                          "virtual": undefined,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "avatar": true,
+                    "button": true,
+                    "children": Array [
+                      <Styled(Left)
+                        virtual={undefined}
+                      >
+                        <Styled(Icon)
+                          name="ios-pin-outline"
+                          virtual={undefined}
+                        />
+                      </Styled(Left)>,
+                      <Styled(Body)
+                        virtual={undefined}
+                      >
+                        <Styled(Text)
+                          virtual={undefined}
+                        >
+                          Result Title
+                        </Styled(Text)>
+                        <Styled(Text)
+                          note={true}
+                          virtual={undefined}
+                        >
+                          result note
+                        </Styled(Text)>
+                      </Styled(Body)>,
+                      <Styled(Right)
+                        virtual={undefined}
+                      >
+                        <Styled(Icon)
+                          name="ios-arrow-forward"
+                          virtual={undefined}
+                        />
+                      </Styled(Right)>,
+                    ],
+                    "onPress": [Function],
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <Styled(Icon)
+                          name="ios-pin-outline"
+                          virtual={undefined}
+                        />,
+                        "virtual": undefined,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "name": "ios-pin-outline",
+                          "virtual": undefined,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": Array [
+                          <Styled(Text)
+                            virtual={undefined}
+                          >
+                            Result Title
+                          </Styled(Text)>,
+                          <Styled(Text)
+                            note={true}
+                            virtual={undefined}
+                          >
+                            result note
+                          </Styled(Text)>,
+                        ],
+                        "virtual": undefined,
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": "Result Title",
+                            "virtual": undefined,
+                          },
+                          "ref": null,
+                          "rendered": "Result Title",
+                          "type": [Function],
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": "result note",
+                            "note": true,
+                            "virtual": undefined,
+                          },
+                          "ref": null,
+                          "rendered": "result note",
+                          "type": [Function],
+                        },
+                      ],
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <Styled(Icon)
+                          name="ios-arrow-forward"
+                          virtual={undefined}
+                        />,
+                        "virtual": undefined,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "name": "ios-arrow-forward",
+                          "virtual": undefined,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
       "type": [Function],
     },
   ],

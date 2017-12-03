@@ -21,6 +21,16 @@ import {
 } from 'native-base'
 
 export class Search extends Component {
+  constructor () {
+    super()
+
+    this.handleGoToPlace = this.handleGoToPlace.bind(this)
+  }
+
+  handleGoToPlace () {
+    this.props.navigation.navigate('PlaceProfile')
+  }
+
   render () {
     return (
       <Container>
@@ -51,7 +61,8 @@ export class Search extends Component {
             </Button>
           </Segment>
           <List>
-            <ListItem avatar button>
+            <ListItem avatar button
+              onPress={() => this.handleGoToPlace()}>
               <Left>
                 <Icon name='ios-pin-outline' />
               </Left>
@@ -63,7 +74,8 @@ export class Search extends Component {
                 <Icon name='ios-arrow-forward' />
               </Right>
             </ListItem>
-            <ListItem avatar button>
+            <ListItem avatar button
+              onPress={() => this.handleGoToPlace()}>
               <Left>
                 <Icon name='ios-pin-outline' />
               </Left>
@@ -75,7 +87,8 @@ export class Search extends Component {
                 <Icon name='ios-arrow-forward' />
               </Right>
             </ListItem>
-            <ListItem avatar button>
+            <ListItem avatar button
+              onPress={() => this.handleGoToPlace()}>
               <Left>
                 <Icon name='ios-pin-outline' />
               </Left>
@@ -92,6 +105,10 @@ export class Search extends Component {
       </Container>
     )
   }
+}
+
+Search.propTypes = {
+  navigation: PropTypes.object.isRequired
 }
 
 export default Search

@@ -17,6 +17,13 @@ import Dashboard from '../../src/pages/Dashboard'
 import Stories from '../../src/pages/Stories'
 import Search from '../../src/pages/Search'
 
+const navigation = {
+  navigate: (e) => {
+    action('navigating')(e)
+    linkTo('Page: ', e)(e)
+  }
+}
+
 addDecorator((story) => (
   <StyleProvider style={getTheme(commonColor)}>
     { story() }
@@ -25,25 +32,39 @@ addDecorator((story) => (
 
 storiesOf('Page: ', module)
   .add('Feed', () =>
-    <Feed />
+    <Feed
+      navigation={navigation}
+    />
   )
   .add('Collection', () =>
-    <Collection />
+    <Collection
+      navigation={navigation}
+    />
   )
-  .add('Place Profile', () =>
-    <PlaceProfile />
+  .add('PlaceProfile', () =>
+    <PlaceProfile
+      navigation={navigation}
+    />
   )
   .add('Campaigns', () =>
-    <Campaigns />
+    <Campaigns
+      navigation={navigation}
+    />
   )
   .add('Dashboard', () =>
-    <Dashboard />
+    <Dashboard
+      navigation={navigation}
+    />
   )
   .add('Stories', () =>
-    <Stories />
+    <Stories
+      navigation={navigation}
+    />
   )
   .add('Search', () =>
-    <Search />
+    <Search
+      navigation={navigation}
+    />
   )
 
 storiesOf('Component: ', module)

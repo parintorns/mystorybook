@@ -19,7 +19,7 @@ import Search from '../../src/pages/Search'
 
 const navigation = {
   navigate: (e) => {
-    action('navigating')(e)
+    //action('navigating')(e)
     linkTo('Page: ', e)(e)
   }
 }

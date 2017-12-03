@@ -1,0 +1,1263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Register
+    navigation={
+      Object {
+        "navigate": [Function],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Styled(Header)
+          virtual={undefined}
+        >
+          <Styled(Left)
+            virtual={undefined}
+          >
+            <Styled(Button)
+              id="btnBack"
+              onPress={[Function]}
+              transparent={true}
+              virtual={undefined}
+            >
+              <Styled(Title)
+                virtual={undefined}
+              >
+                Cancel
+              </Styled(Title)>
+            </Styled(Button)>
+          </Styled(Left)>
+          <Styled(Right)
+            virtual={undefined}
+          >
+            <Styled(Button)
+              id="btnNext"
+              onPress={[Function]}
+              transparent={true}
+              virtual={undefined}
+            >
+              <Styled(Title)
+                virtual={undefined}
+              >
+                Next
+              </Styled(Title)>
+              <Styled(Icon)
+                name="ios-arrow-round-forward-outline"
+                virtual={undefined}
+              />
+            </Styled(Button)>
+          </Styled(Right)>
+        </Styled(Header)>,
+        <Styled(Content)
+          padder={true}
+          virtual={undefined}
+        >
+          <Styled(ViewNB)
+            style={
+              Object {
+                "alignItems": "center",
+                "marginVertical": 20,
+              }
+            }
+            virtual={undefined}
+          >
+            <Image
+              style={
+                Object {
+                  "aspectRatio": 1,
+                  "backgroundColor": "#aaa",
+                  "borderRadius": 70,
+                  "height": 140,
+                  "width": 140,
+                }
+              }
+            />
+          </Styled(ViewNB)>
+          <Styled(Form)
+            virtual={undefined}
+          >
+            <Styled(Item)
+              first={true}
+              virtual={undefined}
+            >
+              <Styled(Input)
+                placeholder="Firstname"
+                virtual={undefined}
+              />
+            </Styled(Item)>
+            <Styled(Item)
+              virtual={undefined}
+            >
+              <Styled(Input)
+                placeholder="Lastname"
+                virtual={undefined}
+              />
+            </Styled(Item)>
+            <Styled(Item)
+              virtual={undefined}
+            >
+              <Styled(Input)
+                placeholder="Phone"
+                virtual={undefined}
+              />
+            </Styled(Item)>
+            <Styled(Item)
+              virtual={undefined}
+            >
+              <Styled(Input)
+                placeholder="City"
+                virtual={undefined}
+              />
+            </Styled(Item)>
+            <Styled(Item)
+              last={true}
+              virtual={undefined}
+            >
+              <Styled(Input)
+                placeholder="Country"
+                virtual={undefined}
+              />
+            </Styled(Item)>
+          </Styled(Form)>
+        </Styled(Content)>,
+      ],
+      "virtual": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(Left)
+              virtual={undefined}
+            >
+              <Styled(Button)
+                id="btnBack"
+                onPress={[Function]}
+                transparent={true}
+                virtual={undefined}
+              >
+                <Styled(Title)
+                  virtual={undefined}
+                >
+                  Cancel
+                </Styled(Title)>
+              </Styled(Button)>
+            </Styled(Left)>,
+            <Styled(Right)
+              virtual={undefined}
+            >
+              <Styled(Button)
+                id="btnNext"
+                onPress={[Function]}
+                transparent={true}
+                virtual={undefined}
+              >
+                <Styled(Title)
+                  virtual={undefined}
+                >
+                  Next
+                </Styled(Title)>
+                <Styled(Icon)
+                  name="ios-arrow-round-forward-outline"
+                  virtual={undefined}
+                />
+              </Styled(Button)>
+            </Styled(Right)>,
+          ],
+          "virtual": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Styled(Button)
+                id="btnBack"
+                onPress={[Function]}
+                transparent={true}
+                virtual={undefined}
+              >
+                <Styled(Title)
+                  virtual={undefined}
+                >
+                  Cancel
+                </Styled(Title)>
+              </Styled(Button)>,
+              "virtual": undefined,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Styled(Title)
+                  virtual={undefined}
+                >
+                  Cancel
+                </Styled(Title)>,
+                "id": "btnBack",
+                "onPress": [Function],
+                "transparent": true,
+                "virtual": undefined,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Cancel",
+                  "virtual": undefined,
+                },
+                "ref": null,
+                "rendered": "Cancel",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Styled(Button)
+                id="btnNext"
+                onPress={[Function]}
+                transparent={true}
+                virtual={undefined}
+              >
+                <Styled(Title)
+                  virtual={undefined}
+                >
+                  Next
+                </Styled(Title)>
+                <Styled(Icon)
+                  name="ios-arrow-round-forward-outline"
+                  virtual={undefined}
+                />
+              </Styled(Button)>,
+              "virtual": undefined,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Styled(Title)
+                    virtual={undefined}
+                  >
+                    Next
+                  </Styled(Title)>,
+                  <Styled(Icon)
+                    name="ios-arrow-round-forward-outline"
+                    virtual={undefined}
+                  />,
+                ],
+                "id": "btnNext",
+                "onPress": [Function],
+                "transparent": true,
+                "virtual": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Next",
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "Next",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "name": "ios-arrow-round-forward-outline",
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(ViewNB)
+              style={
+                Object {
+                  "alignItems": "center",
+                  "marginVertical": 20,
+                }
+              }
+              virtual={undefined}
+            >
+              <Image
+                style={
+                  Object {
+                    "aspectRatio": 1,
+                    "backgroundColor": "#aaa",
+                    "borderRadius": 70,
+                    "height": 140,
+                    "width": 140,
+                  }
+                }
+              />
+            </Styled(ViewNB)>,
+            <Styled(Form)
+              virtual={undefined}
+            >
+              <Styled(Item)
+                first={true}
+                virtual={undefined}
+              >
+                <Styled(Input)
+                  placeholder="Firstname"
+                  virtual={undefined}
+                />
+              </Styled(Item)>
+              <Styled(Item)
+                virtual={undefined}
+              >
+                <Styled(Input)
+                  placeholder="Lastname"
+                  virtual={undefined}
+                />
+              </Styled(Item)>
+              <Styled(Item)
+                virtual={undefined}
+              >
+                <Styled(Input)
+                  placeholder="Phone"
+                  virtual={undefined}
+                />
+              </Styled(Item)>
+              <Styled(Item)
+                virtual={undefined}
+              >
+                <Styled(Input)
+                  placeholder="City"
+                  virtual={undefined}
+                />
+              </Styled(Item)>
+              <Styled(Item)
+                last={true}
+                virtual={undefined}
+              >
+                <Styled(Input)
+                  placeholder="Country"
+                  virtual={undefined}
+                />
+              </Styled(Item)>
+            </Styled(Form)>,
+          ],
+          "padder": true,
+          "virtual": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Image
+                style={
+                  Object {
+                    "aspectRatio": 1,
+                    "backgroundColor": "#aaa",
+                    "borderRadius": 70,
+                    "height": 140,
+                    "width": 140,
+                  }
+                }
+              />,
+              "style": Object {
+                "alignItems": "center",
+                "marginVertical": 20,
+              },
+              "virtual": undefined,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "style": Object {
+                  "aspectRatio": 1,
+                  "backgroundColor": "#aaa",
+                  "borderRadius": 70,
+                  "height": 140,
+                  "width": 140,
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Styled(Item)
+                  first={true}
+                  virtual={undefined}
+                >
+                  <Styled(Input)
+                    placeholder="Firstname"
+                    virtual={undefined}
+                  />
+                </Styled(Item)>,
+                <Styled(Item)
+                  virtual={undefined}
+                >
+                  <Styled(Input)
+                    placeholder="Lastname"
+                    virtual={undefined}
+                  />
+                </Styled(Item)>,
+                <Styled(Item)
+                  virtual={undefined}
+                >
+                  <Styled(Input)
+                    placeholder="Phone"
+                    virtual={undefined}
+                  />
+                </Styled(Item)>,
+                <Styled(Item)
+                  virtual={undefined}
+                >
+                  <Styled(Input)
+                    placeholder="City"
+                    virtual={undefined}
+                  />
+                </Styled(Item)>,
+                <Styled(Item)
+                  last={true}
+                  virtual={undefined}
+                >
+                  <Styled(Input)
+                    placeholder="Country"
+                    virtual={undefined}
+                  />
+                </Styled(Item)>,
+              ],
+              "virtual": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Styled(Input)
+                    placeholder="Firstname"
+                    virtual={undefined}
+                  />,
+                  "first": true,
+                  "virtual": undefined,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "placeholder": "Firstname",
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Styled(Input)
+                    placeholder="Lastname"
+                    virtual={undefined}
+                  />,
+                  "virtual": undefined,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "placeholder": "Lastname",
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Styled(Input)
+                    placeholder="Phone"
+                    virtual={undefined}
+                  />,
+                  "virtual": undefined,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "placeholder": "Phone",
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Styled(Input)
+                    placeholder="City"
+                    virtual={undefined}
+                  />,
+                  "virtual": undefined,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "placeholder": "City",
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Styled(Input)
+                    placeholder="Country"
+                    virtual={undefined}
+                  />,
+                  "last": true,
+                  "virtual": undefined,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "placeholder": "Country",
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Styled(Header)
+            virtual={undefined}
+          >
+            <Styled(Left)
+              virtual={undefined}
+            >
+              <Styled(Button)
+                id="btnBack"
+                onPress={[Function]}
+                transparent={true}
+                virtual={undefined}
+              >
+                <Styled(Title)
+                  virtual={undefined}
+                >
+                  Cancel
+                </Styled(Title)>
+              </Styled(Button)>
+            </Styled(Left)>
+            <Styled(Right)
+              virtual={undefined}
+            >
+              <Styled(Button)
+                id="btnNext"
+                onPress={[Function]}
+                transparent={true}
+                virtual={undefined}
+              >
+                <Styled(Title)
+                  virtual={undefined}
+                >
+                  Next
+                </Styled(Title)>
+                <Styled(Icon)
+                  name="ios-arrow-round-forward-outline"
+                  virtual={undefined}
+                />
+              </Styled(Button)>
+            </Styled(Right)>
+          </Styled(Header)>,
+          <Styled(Content)
+            padder={true}
+            virtual={undefined}
+          >
+            <Styled(ViewNB)
+              style={
+                Object {
+                  "alignItems": "center",
+                  "marginVertical": 20,
+                }
+              }
+              virtual={undefined}
+            >
+              <Image
+                style={
+                  Object {
+                    "aspectRatio": 1,
+                    "backgroundColor": "#aaa",
+                    "borderRadius": 70,
+                    "height": 140,
+                    "width": 140,
+                  }
+                }
+              />
+            </Styled(ViewNB)>
+            <Styled(Form)
+              virtual={undefined}
+            >
+              <Styled(Item)
+                first={true}
+                virtual={undefined}
+              >
+                <Styled(Input)
+                  placeholder="Firstname"
+                  virtual={undefined}
+                />
+              </Styled(Item)>
+              <Styled(Item)
+                virtual={undefined}
+              >
+                <Styled(Input)
+                  placeholder="Lastname"
+                  virtual={undefined}
+                />
+              </Styled(Item)>
+              <Styled(Item)
+                virtual={undefined}
+              >
+                <Styled(Input)
+                  placeholder="Phone"
+                  virtual={undefined}
+                />
+              </Styled(Item)>
+              <Styled(Item)
+                virtual={undefined}
+              >
+                <Styled(Input)
+                  placeholder="City"
+                  virtual={undefined}
+                />
+              </Styled(Item)>
+              <Styled(Item)
+                last={true}
+                virtual={undefined}
+              >
+                <Styled(Input)
+                  placeholder="Country"
+                  virtual={undefined}
+                />
+              </Styled(Item)>
+            </Styled(Form)>
+          </Styled(Content)>,
+        ],
+        "virtual": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(Left)
+                virtual={undefined}
+              >
+                <Styled(Button)
+                  id="btnBack"
+                  onPress={[Function]}
+                  transparent={true}
+                  virtual={undefined}
+                >
+                  <Styled(Title)
+                    virtual={undefined}
+                  >
+                    Cancel
+                  </Styled(Title)>
+                </Styled(Button)>
+              </Styled(Left)>,
+              <Styled(Right)
+                virtual={undefined}
+              >
+                <Styled(Button)
+                  id="btnNext"
+                  onPress={[Function]}
+                  transparent={true}
+                  virtual={undefined}
+                >
+                  <Styled(Title)
+                    virtual={undefined}
+                  >
+                    Next
+                  </Styled(Title)>
+                  <Styled(Icon)
+                    name="ios-arrow-round-forward-outline"
+                    virtual={undefined}
+                  />
+                </Styled(Button)>
+              </Styled(Right)>,
+            ],
+            "virtual": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Styled(Button)
+                  id="btnBack"
+                  onPress={[Function]}
+                  transparent={true}
+                  virtual={undefined}
+                >
+                  <Styled(Title)
+                    virtual={undefined}
+                  >
+                    Cancel
+                  </Styled(Title)>
+                </Styled(Button)>,
+                "virtual": undefined,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Styled(Title)
+                    virtual={undefined}
+                  >
+                    Cancel
+                  </Styled(Title)>,
+                  "id": "btnBack",
+                  "onPress": [Function],
+                  "transparent": true,
+                  "virtual": undefined,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Cancel",
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "Cancel",
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Styled(Button)
+                  id="btnNext"
+                  onPress={[Function]}
+                  transparent={true}
+                  virtual={undefined}
+                >
+                  <Styled(Title)
+                    virtual={undefined}
+                  >
+                    Next
+                  </Styled(Title)>
+                  <Styled(Icon)
+                    name="ios-arrow-round-forward-outline"
+                    virtual={undefined}
+                  />
+                </Styled(Button)>,
+                "virtual": undefined,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <Styled(Title)
+                      virtual={undefined}
+                    >
+                      Next
+                    </Styled(Title)>,
+                    <Styled(Icon)
+                      name="ios-arrow-round-forward-outline"
+                      virtual={undefined}
+                    />,
+                  ],
+                  "id": "btnNext",
+                  "onPress": [Function],
+                  "transparent": true,
+                  "virtual": undefined,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Next",
+                      "virtual": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "Next",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "name": "ios-arrow-round-forward-outline",
+                      "virtual": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(ViewNB)
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "marginVertical": 20,
+                  }
+                }
+                virtual={undefined}
+              >
+                <Image
+                  style={
+                    Object {
+                      "aspectRatio": 1,
+                      "backgroundColor": "#aaa",
+                      "borderRadius": 70,
+                      "height": 140,
+                      "width": 140,
+                    }
+                  }
+                />
+              </Styled(ViewNB)>,
+              <Styled(Form)
+                virtual={undefined}
+              >
+                <Styled(Item)
+                  first={true}
+                  virtual={undefined}
+                >
+                  <Styled(Input)
+                    placeholder="Firstname"
+                    virtual={undefined}
+                  />
+                </Styled(Item)>
+                <Styled(Item)
+                  virtual={undefined}
+                >
+                  <Styled(Input)
+                    placeholder="Lastname"
+                    virtual={undefined}
+                  />
+                </Styled(Item)>
+                <Styled(Item)
+                  virtual={undefined}
+                >
+                  <Styled(Input)
+                    placeholder="Phone"
+                    virtual={undefined}
+                  />
+                </Styled(Item)>
+                <Styled(Item)
+                  virtual={undefined}
+                >
+                  <Styled(Input)
+                    placeholder="City"
+                    virtual={undefined}
+                  />
+                </Styled(Item)>
+                <Styled(Item)
+                  last={true}
+                  virtual={undefined}
+                >
+                  <Styled(Input)
+                    placeholder="Country"
+                    virtual={undefined}
+                  />
+                </Styled(Item)>
+              </Styled(Form)>,
+            ],
+            "padder": true,
+            "virtual": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Image
+                  style={
+                    Object {
+                      "aspectRatio": 1,
+                      "backgroundColor": "#aaa",
+                      "borderRadius": 70,
+                      "height": 140,
+                      "width": 140,
+                    }
+                  }
+                />,
+                "style": Object {
+                  "alignItems": "center",
+                  "marginVertical": 20,
+                },
+                "virtual": undefined,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "style": Object {
+                    "aspectRatio": 1,
+                    "backgroundColor": "#aaa",
+                    "borderRadius": 70,
+                    "height": 140,
+                    "width": 140,
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Styled(Item)
+                    first={true}
+                    virtual={undefined}
+                  >
+                    <Styled(Input)
+                      placeholder="Firstname"
+                      virtual={undefined}
+                    />
+                  </Styled(Item)>,
+                  <Styled(Item)
+                    virtual={undefined}
+                  >
+                    <Styled(Input)
+                      placeholder="Lastname"
+                      virtual={undefined}
+                    />
+                  </Styled(Item)>,
+                  <Styled(Item)
+                    virtual={undefined}
+                  >
+                    <Styled(Input)
+                      placeholder="Phone"
+                      virtual={undefined}
+                    />
+                  </Styled(Item)>,
+                  <Styled(Item)
+                    virtual={undefined}
+                  >
+                    <Styled(Input)
+                      placeholder="City"
+                      virtual={undefined}
+                    />
+                  </Styled(Item)>,
+                  <Styled(Item)
+                    last={true}
+                    virtual={undefined}
+                  >
+                    <Styled(Input)
+                      placeholder="Country"
+                      virtual={undefined}
+                    />
+                  </Styled(Item)>,
+                ],
+                "virtual": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Styled(Input)
+                      placeholder="Firstname"
+                      virtual={undefined}
+                    />,
+                    "first": true,
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "placeholder": "Firstname",
+                      "virtual": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Styled(Input)
+                      placeholder="Lastname"
+                      virtual={undefined}
+                    />,
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "placeholder": "Lastname",
+                      "virtual": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Styled(Input)
+                      placeholder="Phone"
+                      virtual={undefined}
+                    />,
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "placeholder": "Phone",
+                      "virtual": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Styled(Input)
+                      placeholder="City"
+                      virtual={undefined}
+                    />,
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "placeholder": "City",
+                      "virtual": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Styled(Input)
+                      placeholder="Country"
+                      virtual={undefined}
+                    />,
+                    "last": true,
+                    "virtual": undefined,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "placeholder": "Country",
+                      "virtual": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

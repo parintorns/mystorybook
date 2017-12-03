@@ -8,7 +8,7 @@ const handleLoginWithGoogle = jest.spyOn(Login.prototype, 'handleLoginWithGoogle
 
 const props = {
   navigation: {
-    navigate: jest.fn
+    navigate: jest.fn()
   }
 }
 

@@ -1,6 +1,7 @@
 /* eslint-disable global-require */
 import React, { Component } from 'react';
 import { AppRegistry } from 'react-native';
+import { Font } from 'expo'
 import { getStorybookUI, configure } from '@storybook/react-native';
 
 // import stories
@@ -16,8 +17,26 @@ const StorybookUIRoot = getStorybookUI({ port: 7007, onDeviceUI: true });
 // https://github.com/storybooks/storybook/issues/2081
 // eslint-disable-next-line react/prefer-stateless-function
 class StorybookUIHMRRoot extends Component {
+  constructor () {
+    super()
+
+    this.state = {
+      fontLoaded: false
+    }
+  }
+
+  async componentDidMount() {
+    await Font.loadAsync({
+      'Comfortaa-Light': require('../assets/fonts/Comfortaa-Light.ttf')
+    });
+
+    this.setState({ fontLoaded: true });
+  }
+
   render() {
-    return <StorybookUIRoot />;
+    return this.state.fontLoaded
+      ? <StorybookUIRoot />
+      : null
   }
 }
 

@@ -1,18 +1,12 @@
 import color from "color";
 
 import { Platform, Dimensions, PixelRatio } from "react-native";
-import { Font } from 'expo'
+
 
 const deviceHeight = Dimensions.get("window").height;
 const deviceWidth = Dimensions.get("window").width;
 const platform = Platform.OS;
 const platformStyle = undefined;
-
-if (__DEV__) {
-  Font.loadAsync({
-    'Comfortaa-Light': require('../../assets/fonts/Comfortaa-Light.ttf')
-  })
-}
 
 export default {
   platformStyle,

@@ -9,7 +9,6 @@ import { linkTo } from '@storybook/addon-links'
 import getTheme from '../../native-base-theme/components'
 import commonColor from '../../native-base-theme/variables/commonColor'
 import CenterView from './CenterView'
-import App from '../../src/App'
 import Feed from '../../src/pages/Feed'
 import Collection from '../../src/pages/Collection'
 import PlaceProfile from '../../src/pages/PlaceProfile'
@@ -25,9 +24,6 @@ addDecorator((story) => (
 ))
 
 storiesOf('Page: ', module)
-  .add('Sample', () =>
-    <App />
-  )
   .add('Feed', () =>
     <Feed />
   )

@@ -1,13 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1512292045575" clover="3.2.0">
-  <project timestamp="1512292045575" name="All files">
-    <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="4" coveredelements="4" complexity="0" loc="3" ncloc="3" packages="1" files="1" classes="1">
-      <file name="App.js" path="/Users/parintorns/app/mystorybook/src/App.js">
+<coverage generated="1512294036457" clover="3.2.0">
+  <project timestamp="1512294036457" name="All files">
+    <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8" elements="18" coveredelements="18" complexity="0" loc="10" ncloc="10" packages="2" files="8" classes="8">
+      <package name="src">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
-      </file>
+        <file name="App.js" path="/Users/parintorns/app/mystorybook/src/App.js">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="40" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.pages">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+        <file name="Campaigns.js" path="/Users/parintorns/app/mystorybook/src/pages/Campaigns.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="15" count="1" type="stmt"/>
+        </file>
+        <file name="Collection.js" path="/Users/parintorns/app/mystorybook/src/pages/Collection.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="15" count="1" type="stmt"/>
+        </file>
+        <file name="Dashboard.js" path="/Users/parintorns/app/mystorybook/src/pages/Dashboard.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="15" count="1" type="stmt"/>
+        </file>
+        <file name="Feed.js" path="/Users/parintorns/app/mystorybook/src/pages/Feed.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="15" count="1" type="stmt"/>
+        </file>
+        <file name="PlaceProfile.js" path="/Users/parintorns/app/mystorybook/src/pages/PlaceProfile.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="15" count="1" type="stmt"/>
+        </file>
+        <file name="Search.js" path="/Users/parintorns/app/mystorybook/src/pages/Search.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="15" count="1" type="stmt"/>
+        </file>
+        <file name="Stories.js" path="/Users/parintorns/app/mystorybook/src/pages/Stories.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="15" count="1" type="stmt"/>
+        </file>
+      </package>
     </metrics>
   </project>
 </coverage>
